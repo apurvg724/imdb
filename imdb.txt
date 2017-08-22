@@ -1,0 +1,22 @@
+Table structure
+
+database name=testd
+
+CREATE TABLE topmovies (
+   ID INT NOT NULL AUTO_INCREMENT ,
+   movie_name VARCHAR(255) ,
+   movie_year INT ,
+   movie_rating DECIMAL(10,2) ,
+   PRIMARY KEY (ID)
+);
+
+
+
+Database testing
+to verify if select statement gives 250 results
+to verify data is getting truncated beore every run
+to verify movie name is unique and and is not getting repeated
+to verify if rating/movie name and year is not null
+to verify if list is saved in the same order as on UI
+to verify and test the datatype are as per requirement
+To verify data is correct
